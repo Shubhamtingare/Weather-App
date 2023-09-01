@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500;900&family=Poppins:wght@400;500&family=Righteous&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+     /* background-image: url("https://media.istockphoto.com/id/1546643605/photo/wet-road-flood-in-the-city-torrential-rain-extreme-weather.webp?b=1&s=170667a&w=0&k=20&c=NxPOEBV-uy7N6fOza-vGnKO8CKgLi-Cz_1KQVgNue4I=");
+     background-repeat: no-repeat;
+    background-size: cover; */
+}
+
+.container{
+    width: 90%;
+    max-width: 470px;
+    margin: 70px auto ;
+    padding: 40px 35px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+.heading{
+    color: #fff;
+    margin-top: -10px;
+    margin-bottom: 20px;
+    /* margin: 10px 250px ; */
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header input{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    padding: 10px 25px;
+    border-radius: 40px;
+    color: #555;
+    height: 60px;
+    flex: 1;
+    margin-right: 20px;
+    font-size: 18px;
+
+}
+.header button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+.header img{
+    width: 22px;
+}
+.main img{
+    width: 170px;
+    margin-top: 30px;
+}
+.main h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.main h2{
+    font-size: 45px;
+    font-weight: 400;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.footer .col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+.humidity , .wind{
+ font-size: 28px;
+ margin-top: -6px;
+}
+.error{
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 14px;
+    display: none;
+}
